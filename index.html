@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RONENSIS ENGINEERING CONSULTANTS</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="preload" href="assets/fontawesome/css/all.min.css" as="style" />
+    <link rel="preload" href="assets/bootstrap/css/bootstrap.min.css" as="style" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/form-validation.js" defer></script>
+    <script src="scrp/script.js" defer></script>
+    <script src="./i.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/ronn.png" alt="RONENSIS Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-bs-toggle="collapse"
+                            data-bs-target=".navbar-collapse.show">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-bs-toggle="collapse"
+                            data-bs-target=".navbar-collapse.show">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-bs-toggle="collapse"
+                            data-bs-target=".navbar-collapse.show">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">Energy and Infrastructure Experts</h1>
+                    <p class="lead">Providing world-class engineering solutions and equipment services across Zambia</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">ABOUT US</a>
+                    <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/road.jpeg" class="card-img-top" alt="Road Works" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Road Works</h5>
+                        <p class="card-text">Expert road construction and maintenance services for all types of
+                            projects.</p>
+                        <a href="#road-works" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/mining.webp" class="card-img-top" alt="Mining Operations" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Mining Operations</h5>
+                        <p class="card-text">Comprehensive mining support services including material transport and
+                            processing.</p>
+                        <a href="#mining" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bridge.jpeg" class="card-img-top" alt="Sanitation Projects" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bridge Construction Projects</h5>
+                        <p class="card-text">Professional drainage and sanitation solutions for urban and rural areas.
+                        </p>
+                        <a href="#sanitation" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Equipment</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/tipper truck.jpg" class="card-img-top" alt="Trucks" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Trucks</h5>
+                        <p class="card-text">Dropside, tipper, and crane trucks available for hire.</p>
+                        <a href="#trucks" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/excavator.jpg" class="card-img-top" alt="Excavators" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Excavators</h5>
+                        <p class="card-text">Full range of excavators from mini to large scale.</p>
+                        <a href="#excavators" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/og loader.webp" class="card-img-top" alt="Loaders" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Loaders</h5>
+                        <p class="card-text">Skid-steer and front-end loaders for various applications.</p>
+                        <a href="#loaders" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/loaders.jpg" class="card-img-top" alt="Cranes" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cranes</h5>
+                        <p class="card-text">Crane trucks for lifting and material handling.</p>
+                        <a href="#cranes" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title">Get in Touch</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="info-item mb-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Plot 2653, Lubu Road, Longacres, Lusaka, Zambia</p>
+                        </div>
+                        <div class="info-item mb-4">
+                            <i class="fas fa-phone"></i>
+                            <p>+260 211 254531</p>
+                        </div>
+                        <div class="info-item mb-4">
+                            <i class="fas fa-envelope"></i>
+                            <p>lwenshi.limited@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Fri: 7:00 AM - 5:00 PM<br>Sat: 8:00 AM - 1:00 PM</p>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 RONENSIS ENGINEERING CONSULTANTS. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>Hours: M-F: 7-5pm, Saturday 8-1pm, Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
